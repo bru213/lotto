@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Symulator Lotto. Autor: Imię Nazwisko"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:background="#006400"
+        android:textSize="24sp"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twoje typy:"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <EditText android:id="@+id/userInput1" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" />
+        <EditText android:id="@+id/userInput2" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <EditText android:id="@+id/userInput3" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <EditText android:id="@+id/userInput4" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <EditText android:id="@+id/userInput5" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <EditText android:id="@+id/userInput6" android:layout_width="0dp" android:layout_weight="1" android:inputType="number" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/drawButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOSUJ NUMERY"
+        android:background="#3CB371"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wylosowane liczby:"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView android:id="@+id/drawnNumber1" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" />
+        <TextView android:id="@+id/drawnNumber2" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <TextView android:id="@+id/drawnNumber3" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <TextView android:id="@+id/drawnNumber4" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <TextView android:id="@+id/drawnNumber5" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+        <TextView android:id="@+id/drawnNumber6" android:layout_width="0dp" android:layout_weight="1" android:gravity="center" android:text="?" android:layout_height="50dp" android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/matchCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Liczba trafień: 0" android:textAlignment="center" android:layout_marginTop="10dp" />
+    <TextView android:id="@+id/drawCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Liczba losowań: 0" android:textAlignment="center" android:layout_marginTop="10dp" />
+
+    <Button android:id="@+id/resetButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="RESETUJ GRĘ" android:background="#3CB371" android:layout_marginTop="10dp" />
+</LinearLayout>
