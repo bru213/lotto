@@ -10,7 +10,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Symulator Lotto. Autor: Imię Nazwisko"
+        android:text="Symulator Lotto. Autor: Paweł Sadowski"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:background="#006400"
