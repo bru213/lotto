@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LightBlue"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      Symulator Lotto. \nAutor: Paweł Sadowski"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/DarkGreen"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/twoje_typy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twoje typy:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <EditText
+            android:id="@+id/num1"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <EditText
+            android:id="@+id/num2"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <EditText
+            android:id="@+id/num3"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <EditText
+            android:id="@+id/num4"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <EditText
+            android:id="@+id/num5"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <EditText
+            android:id="@+id/num6"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/losuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOSUJ NUMERY"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/MediumSeaGreen"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wylosowane liczby:"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/wylosowana1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:id="@+id/wylosowana2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:id="@+id/wylosowana3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:id="@+id/wylosowana4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:id="@+id/wylosowana5"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+        <TextView
+            android:id="@+id/wylosowana6"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="@string/pytajnik"
+            android:textSize="40dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba trafień: "
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/resetuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ GRĘ"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/MediumSeaGreen"
+        />
+
+    <TextView
+        android:id="@+id/losowania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba losowań: 0"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
